@@ -4,3 +4,6 @@ Place a file called "key.txt" in the same folder as the script that contains you
 
 ## Helpful commands
 - `curl -A "Sia-Agent" 'http://localhost:9980/wallet/lock' -X POST`
+
+### Powershell commands
+- `curl -H @{"user-agent" = "Sia-Agent"} -Uri 'http://localhost:9980/consensus'`
